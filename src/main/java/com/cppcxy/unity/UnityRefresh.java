@@ -8,5 +8,6 @@ public class UnityRefresh extends AnAction {
     @Override
     public void actionPerformed(AnActionEvent e) {
         UnityLsAdapter.INSTANCE.loadUnityProject();
+        
     }
 }
